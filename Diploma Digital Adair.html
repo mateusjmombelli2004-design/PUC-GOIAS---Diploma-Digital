@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentação Acadêmica — Página Complementar</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      color: #1f2933;
+    }
+
+    header {
+      background: #123b5d;
+      color: white;
+      padding: 24px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    header p {
+      margin: 8px 0 0;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 32px auto;
+    }
+
+    .notice {
+      background: #fff8e1;
+      border: 1px solid #e6c96a;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 20px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    .card-title {
+      padding: 18px 22px;
+      border-bottom: 1px solid #e5e7eb;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      border-bottom: 1px solid #eef0f2;
+    }
+
+    .info:last-child {
+      border-bottom: none;
+    }
+
+    .label, .value {
+      padding: 16px 20px;
+      line-height: 1.45;
+    }
+
+    .label {
+      background: #f8fafc;
+      font-weight: 600;
+    }
+
+    .value {
+      word-break: break-word;
+    }
+
+    .status {
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 16px 36px;
+      font-size: 12px;
+      color: #667085;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 600px) {
+      .info {
+        grid-template-columns: 1fr;
+      }
+
+      .label {
+        padding-bottom: 6px;
+      }
+
+      .value {
+        padding-top: 6px;
+      }
+
+      header h1 {
+        font-size: 19px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Documentação Acadêmica — Página Complementar</h1>
+    <p>Informações apresentadas pelo titular</p>
+  </header>
+
+  <main>
+    <div class="notice">
+      Esta página é uma apresentação complementar das informações acadêmicas do titular.
+      Ela não constitui uma página oficial de validação ou autenticação da instituição de ensino.
+      Para fins de validação oficial, consulte diretamente os canais oficiais da instituição.
+    </div>
+
+    <section class="card">
+      <div class="card-title">Informações Acadêmicas</div>
+
+      <div class="info">
+        <div class="label">Instituição</div>
+        <div class="value">PONTIFÍCIA UNIVERSIDADE CATÓLICA DE GOIÁS</div>
+      </div>
+
+      <div class="info">
+        <div class="label">Nome do Diplomado</div>
+        <div class="value">Adair de Souza Simões Filho</div>
+      </div>
+
+      <div class="info">
+        <div class="label">Grau Conferido</div>
+        <div class="value">Bacharelado</div>
+      </div>
+
+      <div class="info">
+        <div class="label">Curso</div>
+        <div class="value">MEDICINA</div>
+      </div>
+
+      <div class="info">
+        <div class="label">Status Diploma</div>
+        <div class="value status">Ativo</div>
+      </div>
+
+      <div class="info">
+        <div class="label">Status Histórico</div>
+        <div class="value status">Ativo</div>
+      </div>
+
+      <div class="info">
+        <div class="label">Código de validação informado</div>
+        <div class="value">527.527.84785510c66d7aa28b53e51d5e79fdaef2a54c45caa549c73fbff01458ba5616</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Página complementar de caráter informativo.
+    <br>
+    A autenticidade e a validade de documentos acadêmicos devem ser verificadas pelos canais oficiais da instituição responsável.
+  </footer>
+</body>
+</html>
